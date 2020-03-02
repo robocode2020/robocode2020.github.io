@@ -1,84 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta charset="UTF-8">
 	<title>ROBOCODE 2020</title>
+	<link rel="shortcut icon" href="img/robocode.ico">
 	<link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<style>
-		body {
-			margin: 0;
-			padding: 0;
-			background: url('img/bg.jpg');
-			background-size: cover;
-			background-attachment: fixed;
-			background-position: center;
-			font-family: 'Nunito', 'Arial';
-		}
-		.cover-page {
-			background: rgba(0, 0, 0, .6);
-			height: 100vh;
-		}
-		.main {
-			position: absolute;
-			top: 50%;
-			left: 50%;
-			transform: translate(-50%, -50%);
-			text-align: center;
-		}
-		.title {
-			margin: 0;
-			margin-top: -50px;
-			font-size: 55px;
-			color: #1596d3;
-			letter-spacing: 6px;
-		}
-		.subtitle {
-			color: #ddd;
-			font-size: 18px;
-			margin-bottom: 50px;
-			letter-spacing: 3px;
-		}
-		.btn {
-			border: 1px solid #ddd;
-			padding: 8px;
-			color: white;
-			text-decoration: none;
-			cursor: pointer;
-		}
-
-		.btn:hover {
-			color: #1596d3;
-			background: white;
-		}
-
-		.social-link {
-			position: fixed;
-			top: 10px;
-			right: 10px;
-			color: white;
-			font-size: 30px;
-		}
-		.social-link a {
-			padding: 10px;
-		}
-		a {
-			color: #ddd;
-		}
-		.fa:hover {
-			color: white;
-			transform: scale(1.1);
-		}
-	</style>
+	<link rel="stylesheet" href="css/home.css">
 </head>
 <body>
 	<div class="cover-page">
 		<div class="main">
-			<h1 class="title">ROBOCODE 2020</h1>
-			<div class="subtitle">CLB LẬP TRÌNH TRÊN THIẾT BỊ DI ĐỘNG</div>
+			<div><img id="title" src="img/title.png" alt="" width=""></div>
 			<div>
-				<a onclick="alert('Xin lỗi! Đường dẫn hiện tại chưa hoạt động!')" class="btn" style="background: #fff; color: #1596d3;">XEM CHI TIẾT</a>
-				<a onclick="alert('Xin lỗi! Đường dẫn hiện tại chưa được mở!')" class="btn">THAM GIA NGAY</a>
+				<a href="readme.html" class="btn" style="background: #fff; color: #1596d3;">XEM CHI TIẾT</a>
+				<a href="https://docs.google.com/forms/d/e/1FAIpQLScr5bFfo5bh4JeZCqXZkFqJpM2RRV0E2y67efP7CiwURv4OHA/viewform" class="btn">THAM GIA NGAY</a>
 			</div> <!-- Them href va link vao-->
 		</div>
 		<div class="social-link">
@@ -87,5 +24,6 @@
 			<a title="Gmail" href="mailto:clb.ltttbdd@gmail.com"><i class="fa fa-envelope" aria-hidden="true"></i></a>
 		</div>
 	</div>
+	<script src="js/default.js"></script>
 </body>
 </html>

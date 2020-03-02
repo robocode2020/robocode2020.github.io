@@ -1,0 +1,87 @@
+body {
+	margin: 0;
+	padding: 0;
+	background: url('../img/bg.jpg');
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+	font-family: 'Nunito', 'Arial';
+	scroll-behavior: smooth;
+}
+.cover-page {
+	background: rgba(0, 0, 0, .6);
+	background-attachment: fixed;
+	height: 100vh;
+}
+.main {
+	text-align: center;
+}
+
+.subtitle {
+	color: #ddd;
+	margin-bottom: 30px;
+	letter-spacing: 3px;
+}
+.btn {
+	border: 1px solid #ddd;
+	padding: 8px;
+	color: white;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.btn:hover {
+	color: #1596d3;
+	background: white;
+}
+
+.social-link {
+	position: fixed;
+	top: 10px;
+	right: 10px;
+	color: white;
+	font-size: 30px;
+}
+.social-link a {
+	padding: 10px;
+}
+a {
+	color: #ddd;
+}
+.fa:hover {
+	color: white;
+	transform: scale(1.1);
+}
+
+#title {
+	padding: 170px 0px 50px 0px;
+	width: 650px;
+}
+
+/* Read me */
+
+.content {
+	margin-top: 50px;
+	padding: 50px;
+	color: #ddd;
+	text-align: justify;
+	background: rgba(90, 90, 90, .9);
+}
+
+.content h4 {
+	color: #1596d3;
+}
+
+.content h4:before {
+	content: "* ";
+}
+
+#imgthele {
+	width: 650px;
+}
+
+@media screen and (max-width: 768px) {
+  #title, #imgthele {
+  	width: 95%;
+  }
+}
